@@ -6,9 +6,35 @@ body {
   background-color: #ea704e;
   overflow-x: hidden; }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  ul li {
+    display: inline-block; }
+
+a {
+  text-decoration: none;
+  color: #444444; }
+
+.wrapper {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
 .container {
   display: block;
   width: 1160px;
   height: auto;
   margin-left: auto;
   margin-right: auto; }
+
+.nav {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-image: linear-gradient(to top, #f3f3f3 0%, white 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
+
+.nav__logo, .nav__menu, .nav__search {
+  display: inline-block; }
