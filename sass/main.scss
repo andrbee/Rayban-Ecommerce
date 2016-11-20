@@ -74,7 +74,8 @@ $bx_shdw: 0 5px 7px rgba(0, 0, 0, 0.15);
 body {
   padding: 0;
   background-color: $bg_body_orange;
-  overflow-x: hidden;
+  overflow: hidden;
+  margin: 0;
 }
 
 ul {
@@ -529,6 +530,28 @@ a {
     margin-right: 0px;
     margin-left: 0px;
   }
+  .menu {
+    text-align: center;
+  }
+  .menu__item {
+    display: block;
+  }
+  .menu__link {
+    font-size: 16px;
+  }
+  .nav__logo {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .nav__menu {
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+  }
+  .nav__search {
+    width: 100%;
+  }
 
 }
 
@@ -542,23 +565,8 @@ a {
   .banner__main-title {
     font-size: 55px;
   }
-  .nav__logo {
-    width: 100%;
-  }
-  .nav__menu {
-    width: 100%;
-    clear: both;
-    margin-bottom: 20px;
-  }
-  .nav__search {
-    width: 100%;
-  }
-  .menu {
-    text-align: center;
-  }
-  .menu__item {
-    display: block;
-  }
+
+
   .footer__logo {
     margin-bottom: 20px;
     text-align: center;
