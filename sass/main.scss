@@ -148,6 +148,9 @@ a {
   vertical-align: middle;
   max-height: 40px;
   text-transform: uppercase;
+  &:hover {
+    border-bottom:3px solid $main_color;
+  }
 }
 .select {
   border-bottom:3px solid $main_color;

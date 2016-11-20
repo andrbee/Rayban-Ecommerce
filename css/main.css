@@ -98,6 +98,8 @@ a {
   vertical-align: middle;
   max-height: 40px;
   text-transform: uppercase; }
+  .menu__link:hover {
+    border-bottom: 3px solid #444444; }
 
 .select {
   border-bottom: 3px solid #444444; }
